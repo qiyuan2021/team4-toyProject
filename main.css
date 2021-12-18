@@ -1,0 +1,257 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+  border: 1px solid red;
+  margin: auto;
+  background-color: #EEECE5;
+}
+
+.header-list {
+  display: flex;
+  position: relative;
+}
+
+.header-item1 {
+  margin: 6px 0 0 27px;
+  display: block;
+}
+
+.header-list .header-item2 .header-title {
+  font-size: 18px;
+  position: absolute;
+  left: 155px;
+  top: 15px;
+}
+
+.header-list .header-item3 .scan {
+  position: absolute;
+  top: 15px;
+  right: 63px;
+}
+
+.header-list .header-item3 .search {
+  position: absolute;
+  top: 16px;
+  right: 21px;
+}
+
+.info-box {
+  width: 279px;
+  height: 155px;
+  margin: 32px 48px 0px 48px;
+  border-radius:12px;
+  background-color: white;
+  padding-top: 14px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.info-box .account {
+  color: #858585;
+  font-size: 14px;
+  margin: 0px 70px 16px 73px;
+}
+
+.info-box .balance {
+  font-size: 24px;
+  width: 160px;
+  height: 36px;
+  margin: 16px 58px 23px 60px;
+  display: flex;
+  justify-content: left;
+  letter-spacing:1px;
+}
+.info-box .balance>span {
+  font-size: 14px;
+  margin-left: 1px;
+  padding-top: 9px;
+}
+
+.info-box .con-bar1 {
+  width: 202px;
+  height: 6px;
+  background-color: #C4C4C4;
+  border-radius: 3px;
+  margin-left: 32px;
+  margin-top: 2px;
+}
+
+.info-box .con-bar-yellow {
+  width: 128px;
+  height: 6px;
+  background-color: #FFDB4C;
+  border-radius: 3px;
+  position: absolute;
+  top: 110px;
+  left: 32px;
+}
+
+.info-box .con-bar-h {
+  width: 4px;
+  height: 17px;
+  background-color: #FF5F00;
+  border-radius: 3px;
+  position: absolute;
+  top: 104px;
+  left: 159px;
+} 
+
+.con-bar>img {
+  position: absolute;
+  bottom: 38px;
+  right: 19px;
+}
+
+.transfer {
+  position: absolute;
+  top: 14px;
+  right: 17px;
+  font-size: 14px;
+}
+
+.info-box1 .transfer>a {
+  color: black;
+  font-weight: bold;
+}
+
+.info-box .info-box1 .con-remain {
+  font-size: 14px;
+  color: #858585;
+  margin-left: 62px;
+  margin-top: 16px;
+}
+
+nav {
+  background-color: #00BDB2;
+  height: 76px;
+  width: 375px;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+}
+
+.menu-list {
+ display: flex;
+}
+
+.menu-list .menu-item1 {
+  position: absolute;
+  bottom: 19px;
+  left: 39px;
+}
+
+.menu-list .menu-item2 {
+  position: absolute;
+  bottom: 16px;
+  left: 126px;
+}
+
+.menu-list .menu-item3 {
+  position: absolute;
+  bottom: 17px;
+  left: 221px;
+}
+
+.menu-list .menu-item4 {
+  position: absolute;
+  bottom: 24px;
+  right: 39px;
+}
+
+.ad-box {
+  font-size: 14px;
+  margin-left: 42px;
+  margin-top: 23px;
+  margin-bottom: 21px;
+}
+
+.ad-box>a {
+  color: black;
+  margin-left: 5px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.container .bottom-section {
+  width: 375px;
+  height: 459px;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: relative;
+}
+
+.container .latest>h2 {
+  font-size: 0px;
+}
+
+.container .latest .slide-bar {
+  background-color: #C4C4C4;
+  width: 48px;
+  height: 2px;
+  border-radius: 4px;
+  position:absolute;
+  left: 162px;
+  top:4px;
+}
+
+.bottom-section .goal-box .goal-item1 {
+  width: 162px;
+  height: 47px;
+  background-color:  #FF5F00;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px 0px 0px 6px;
+  margin-top: 19px;
+  margin-left: 30px;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-top: 10px;
+  line-height: 1.2;
+}
+
+.bottom-section .goal-box .goal-item2 {
+  width: 135px;
+  height: 47px;
+  background-color: #FEB700;
+  border-radius: 6px 0px 0px 6px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 7px;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-top: 10px;
+  line-height: 1.2;
+}
+
+.latest .detail-date-list .day-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 14px;
+  margin-bottom: 2px;
+}
+
+.latest .detail-date-list .day-amount {
+  color: #B4B4B4;
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  top: 80px;
+  right: 37px;
+}
+
+.latest .detail-date-list .day-list>* {
+  border-bottom: 1px solid #DCDCDC;
+  width: 300px;
+  height: 42px;
+  margin-left: 36px;
+}
